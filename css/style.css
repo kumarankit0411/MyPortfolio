@@ -2,7 +2,7 @@
 
 /* entypo */
 [class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
+  font-family: "entypo", sans-serif;
 }
 
 .first-text {
@@ -45,23 +45,21 @@ body {
 
 hr {
 	height: 5px;
-	border:none;
-	color:#aaa;
+	border: none;
+	color: #aaa;
 	background-color: #aaa;
 }
 
 .navbar {
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .cover-pic {
 	width: 100%;
-	padding: 15px;
 }
 
 .project-pic {
 	width: 100%;
-	margin: auto;
 }
 
 .footer-list {
@@ -69,7 +67,7 @@ hr {
 	display: flex;
 	width: 25%;
 	margin: auto;
-	padding: 0px; /*necessary to override default padding of <ul> element which is 40px*/
+	padding: 0; /*necessary to override default padding of <ul> element which is 40px*/
 }
 
 .listed {
@@ -89,6 +87,7 @@ hr {
 		margin: auto;
 	}
 }
+
 @media screen and (max-width: 500px) {
 	.title-super {
 		font-size: 3em;
@@ -96,6 +95,18 @@ hr {
 }
 
 .container-fluid {
-	padding: 0px;
+	padding: 0;
 }
 
+.row {
+	margin-right: 0;
+}
+
+.col-md-6 {
+	padding-right: 0;
+}
+
+.container-fluid>.navbar-header {
+	margin-right: 15px;
+	margin-left: 15px;
+}
