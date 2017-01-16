@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <section class="container-fluid">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand first-text" href="#"><span class="entypo-briefcase">My Portfolio</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <div class="nav navbar-nav navbar-right">
+            <a class="mail-button" href="mailto:ankitsingh095@outlook.com"><span class="glyphicon glyphicon-log-in"></span> &nbsp;Mail me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="row">
+      <div class="col-md-6">
+        <img src="./img/myLogo.png" class="logo img-responsive" alt="logo">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Ankit Kr. Singh</h1>
+        <h3>Welcome to My World</h3>
+      </div>
+    </header>
+    <hr>
+    <figure class="row">
+      <img src="http://integerwealth.co.uk/wp-content/uploads/2015/07/slider-3-1-1140x350.jpg" class="cover-pic" alt="cover pic">
+    </figure>
+    <div class="row">
+      <header class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+      </header>
+    </div>
+    <div class="row text-center">
+      <article class="col-md-6">
+        <img src="./img/Logo-socli.png" class="project-pic" data-toggle="modal" data-target="#project1" alt="socli">
+        <h3>Socli</h3>
+        <p><a href="https://opencollective.com/socli">Link to project</a></p>
+      </article>
+      <article class="col-md-6">
+        <img src="http://www.doublecreek.it/wp-content/uploads/2014/09/Welsh-Corgi-Pembroke-555x300.jpg" class="project-pic" data-toggle="modal" data-target="#project2" alt="animal_trading_cards">
+        <h3>Animal_Trading_Cards</h3>
+        <p><a href="https://github.com/kumarankit0411/Animal_Trading_Cards">Link to project</a></p>
+      </article>
+    </div>
+    <div class="row text-center">
+      <article class="col-md-6">
+        <img src="./img/Duck-logo.jpg" class="project-pic" data-toggle="modal" data-target="#project3" alt="DuckDuckGo">
+        <h3>DuckDuckGo IA's</h3>
+        <p><a href="https://github.com/kumarankit0411/zeroclickinfo-goodies">Link to project</a></p>
+      </article>
+      <article class="col-md-6">
+        <img src="./img/National-Robotics.jpg" class="project-pic" data-toggle="modal" data-target="#project4" alt="E-yantra">
+        <h3>E-Yantra</h3>
+        <p><a href="http://e-yantra.org/eyrc">Link to project</a></p>
+      </article>
+    </div>
+  </section> 
+  
+  <!-- Modals Start -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="./img/Logo-socli.png" alt="Socli">
+          <p>I contribute to socli as a core contributor. Socli is a command line interface for stack overflow and provides you with the ability to view answers to any question in command line. It works on almost all kinds of shells aka bash, unix, windows cmd etc. My most recent contribution is the addition of color support for text in gitbash shell in windows.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://www.doublecreek.it/wp-content/uploads/2014/09/Welsh-Corgi-Pembroke-555x300.jpg" alt="animal_trading_cards">
+          <p>This is a simple project that I made to understand the basics of HTML and CSS. The most important thing I learned from this simple project was how to create boxes or card type layout with the help of border property of CSS.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="./img/Duck-logo.jpg" alt="DuckDuckGo">
+          <p>DuckDuckGo is a meta search engine that does not collect any information about the user searching a query on it. This makes it an anonymous search engine that most users prefer if they do not to want themselves to be tracked on internet. Aside from this, DDG is great for programmers as they get instant answers to most programming queries and I have made several instant answers for DDG such as java programming cheatsheet, urllib cheatsheet. Have a look at one of my IA's that is triggered with the query <a href="https://duckduckgo.com/?q=urllib+cheatsheet&t=hs&ia=cheatsheet">"urllib cheatsheet"</a> on <a href="duckduckgo.com">DuckDuckGo</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel4">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="./img/National-Robotics.jpg" alt="E-yantra">
+          <p>E-yantra is an annual robotics competition organised by prestigious institute of India IIT-Bombay and I wrote to detect numbers from a digital image and then fed this info to the robot which picked numbers accordingly and completed its task. Here's a link to the youtube video of the demonstration of the same by me and my team members : <a href="https://www.youtube.com/watch?v=R6nQwZzKTAs">link to video</a>. You can click on the link to project to go the competition website which contains my college name along with team id 3416. Also you can find more about this on my <a href="https://in.linkedin.com/in/ankit-kumar-singh-811a05121">linked in</a> profile :)</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modals End -->
+
+  <section class="container-fluid">
+    <hr>
+    <footer class="myFooter">
+      <div class="text-center">Made with <span class="entypo-heart"></span> by <em>Ankit Kr. Singh</em></div>
+      <div class="text-center"><strong>Connect with me:</strong></div>
+      <ul class="footer-list">
+        <li class="listed"><a href="#"><span class="entypo-linkedin"></span></a></li>
+        <li class="listed"><a href="#"><span class="entypo-facebook"></span></a></li>
+        <li class="listed"><a href="#"><span class="entypo-github"></span></a></li>
+      </ul>
+    </footer>
+  </section>
+</body>
+</html>
